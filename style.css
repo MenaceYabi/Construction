@@ -408,12 +408,14 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
 @media screen and (max-width: 1400px) {
     .DIV, .Services, .History, .carrousel, .carrousel2 {
         width: 100%;
+        overflow-x: hidden;
     }
     
     .text {
         right: 50%;
         transform: translateX(50%);
         width: 80%;
+        margin-top: 0;
     }
     
     .work1, .work2 {
@@ -421,6 +423,12 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
         right: 0;
         margin: 20px auto;
         flex-wrap: wrap;
+        height: auto;
+    }
+
+    .history {
+        width: 90%;
+        padding: 0 20px;
     }
     
     .Picture {
@@ -428,28 +436,54 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
         left: 50%;
         transform: translateX(-50%);
     }
+
+    .TEXT {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    footer {
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 992px) {
+    .DIV {
+        height: auto;
+        min-height: 600px;
+    }
+
     .navbar ul div {
         padding-left: 5%;
     }
     
+    .text {
+        top: 150px;
+    }
+
     .text h1 {
         font-size: 60px;
+        letter-spacing: 4px;
     }
     
     .History {
         flex-direction: column;
         gap: 50px;
         height: auto;
+        padding: 20px;
     }
     
     .Image {
         left: 0;
         width: 100%;
+        height: 300px;
     }
     
+    .info1, .info2 {
+        margin: 20px auto;
+    }
+
     .Picture {
         grid-template-columns: 1fr 1fr;
         gap: 20px;
@@ -457,9 +491,14 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
     
     footer {
         flex-direction: column;
-        gap: 50px;
+        gap: 30px;
         height: auto;
-        padding: 20px;
+        padding: 40px 20px;
+    }
+
+    .footer1, .footer2 {
+        width: 100%;
+        gap: 30px;
     }
 }
 
@@ -467,39 +506,67 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
     .navbar ul div {
         flex-direction: column;
         height: auto;
-        gap: 10px;
+        gap: 15px;
         background-color: rgba(0, 0, 0, 0.8);
-        padding: 15px;
+        padding: 20px;
     }
     
     .text {
-        top: 150px;
+        top: 120px;
+        width: 90%;
     }
     
     .text h1 {
         font-size: 40px;
+        letter-spacing: 3px;
     }
     
     .text button {
         right: 50%;
         transform: translateX(50%);
+        margin-top: 30px;
     }
     
     .info1, .info2 {
-        width: 100%;
+        width: 90%;
         left: 0;
+        height: auto;
+        margin: 20px auto;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card-text {
+        margin-top: 20px;
+        text-align: center;
     }
     
     .FIRST, .second {
         flex-direction: column;
+        height: auto;
     }
     
     .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
         width: 100%;
+        height: 200px;
     }
     
     .Picture {
         grid-template-columns: 1fr;
+        position: relative;
+        height: auto;
+        top: 50px;
+    }
+
+    .TEXT {
+        grid-template-columns: 1fr;
+        top: auto;
+        position: relative;
+        margin-top: 400px;
+    }
+
+    .Text1, .Text2, .Text3 {
+        margin: 20px 0;
     }
     
     .footer1, .footer2 {
@@ -507,31 +574,55 @@ footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex
         flex-direction: column;
     }
     
-    .TEXT2 {
+    .TEXT1, .TEXT2 {
         position: relative;
         left: 0;
         width: 100%;
-        margin-top: 20px;
+        margin: 20px 0;
+        text-align: center;
     }
 }
 
 @media screen and (max-width: 480px) {
     .text h1 {
         font-size: 32px;
+        letter-spacing: 2px;
     }
     
     .text p {
         font-size: 16px;
+        padding: 0 10px;
     }
     
     .card-text {
         width: 100%;
+        padding: 0 10px;
+    }
+    
+    .history {
+        padding: 0 15px;
+    }
+
+    .redit, .edit {
+        font-size: 14px;
     }
     
     .last {
         right: 50%;
         transform: translateX(50%);
+        top: 550px;
+    }
+
+    .carrousel2 {
+        height: 900px;
+    }
+
+    .Picture {
+        gap: 15px;
+    }
+
+    .pic1, .pic2, .pic3 {
+        height: 250px;
     }
 }
-
 
