@@ -1,0 +1,537 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+h1{  text-align: center; top :23px; position: relative;}
+
+.DIV
+{
+    height: 800px;
+    width: 1400px;
+    background-image:  url(construction1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.navbar ul div
+{
+   position: relative;
+   width: 100%;
+   gap: 24px;
+   padding: 20px;
+   padding-left: 10%;
+   height: 50px;
+   display: flex;
+   color: aliceblue;
+}
+
+.nav
+{
+   text-align: left;
+
+}
+
+.text
+{
+    height: 200px;
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    align-items: center;
+    justify-content: center;
+    right: 300px;
+    margin-top: 34px;
+}
+
+.text h1 ,p 
+{
+    text-align: center;
+}
+.text h1{ font-size: 77px; color: aliceblue; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; top: -20px; 
+  letter-spacing: 7px; }
+.text p { font-size: 19px; color: antiquewhite ; } 
+.text button
+{
+   position: relative;
+   right: -270px;
+   margin-top: 23px;
+   height: 44px;
+   width: 190px;
+   border-radius: 4px;
+   color: antiquewhite;
+   background-color: orange;
+}
+
+.Services
+{
+     height: 600px;
+    width: 1400px;
+     background-color: rgb(255, 255, 255);
+     display: flex;
+     flex-direction: column;
+     
+}
+
+.info1
+{
+    border-radius: 5px;
+    position: relative;
+    height: 170px;
+    width: 350px;
+     left: 30px;
+     text-align: center;
+     display: flex;
+}
+
+.info2
+{
+    border-radius: 5px;
+    position: relative;
+    height: 170px;
+    width: 350px;
+     left: 30px;
+     text-align: center;
+     display: flex;
+     top: -100px;
+}
+
+.work1
+{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -50px;
+    height: 320px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: none;
+    margin-top: 56px;
+}
+
+.work2
+{
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: -50px;
+    height: 320px;
+    width: 1300px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    border: none;
+    margin-top: 12px;
+}
+
+.card-text h1
+{
+  color: rgb(25, 25, 65);
+}
+
+.image
+{
+    border-radius: 100px;
+    border-color: darkgrey;
+    text-align: center;
+    padding: 30px;
+    background-color: orange;
+    height: 12px;
+    width : 12px;
+    justify-content: center;
+    align-items: center;
+    right: 10px;
+    top: -10px;
+    position: relative;
+}
+
+.image:hover
+{
+    background-color:  rgb(25, 25, 65)
+}
+
+.image img
+
+{
+    left: -20px;
+    top: -25px;
+    position: relative;
+
+}
+
+
+.card-text 
+{
+    height: 140px;
+    width: 340px;
+    text-align: left;
+}
+
+.History
+{
+     height: 600px;
+    width: 1400px;
+    background-color: rgb(206, 205, 192);
+    display: flex;
+    flex-direction: row;
+    gap: 400px;
+}
+
+.history
+{
+    height: 380px;
+    width: 1200px;
+    top: 145px;
+    position: relative;
+}
+
+.Image
+{
+  height: 430px;
+  width: 1000px;
+  top: 145px;
+  left: -100px;
+  position: relative;
+  background-image: url(construction1.jpg);
+  background-size: 150%;
+  background-repeat: no-repeat;
+}
+
+.history h1
+{
+    float: left;
+    text-align: left;
+    margin-top: -120px;
+
+}
+
+.redit
+{
+    float: left;
+    text-align: left;
+    top: 100px;
+    position: relative;
+    font-weight: bold;
+}
+
+.edit
+{
+    position: relative;
+    top:120px;
+    text-align: left;
+    float: left;
+}
+
+.history button{ top: 190px ; position: relative; float: left; height: 45px; width: 117px;
+     border-radius:5px;background-color:orange; color: antiquewhite;}
+
+.carrousel
+{
+    height: 500px;
+    width: 1400px;
+}
+
+.FIRST
+{
+    height: 250px;
+    width: 1000x;
+    display: flex;
+}
+
+.FIRST    h2
+{
+    top: 100px;
+    position: relative;
+}
+
+.second h2
+{
+    top: 100px;
+    position: relative;
+}
+
+
+
+
+.second
+{
+     height: 250px;
+    width: 1000x;
+    display: flex;
+}
+
+.image1
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(construction1.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image2
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(construction10.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image3
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(construction9.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image4
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(construction7.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image5
+{
+    height: 250px;
+    width: 25%;
+    background-color: burlywood;
+    background-image: url(construction3.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image6
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(téléchargement1.jfif);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image7
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(construction4.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.image8
+{
+    height: 250px;
+    width: 25%;
+    background-image: url(cousine5.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carrousel2
+{
+    height: 750px;
+    width: 1400px;
+    background-color: rgb(255, 255, 255);
+    border: 28px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.Picture
+{
+    height: 350px;
+    width: 89%;
+    top: 100px;
+    position: absolute;
+    left: 100px;display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 39px;
+    
+}
+
+.pic1
+{
+    height: 350px;
+    width: 100%;
+        background-image: url(construction13.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic2
+{
+    height: 350px;
+    width: 100% ;
+            background-image: url(construction19.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.pic3
+{
+    height: 350px;
+    width: 100% ;
+            background-image: url(construction12.jpg);
+     background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.TEXT 
+{height: 250px;width: 89%; top: 450px;position: absolute;left: 100px;display: grid;grid-template-columns: 1fr 1fr 1fr;gap: 39px;}
+.Text1{height: 250px;width: 100%;}
+.Text1 p , h2 ,h3{padding-bottom: 12px;text-align: center;}
+.Text2{height: 250px;width: 100%;}
+.Text3{height: 250px;width: 100%; }
+.carrousel2 h1{ text-align: center;}
+.last
+{ height: 45px;width: 120px;position: relative;top: 600px;justify-content: center;align-items: center;right: -700px;color: aliceblue;background-color:rgb(247, 193, 93);}
+
+footer{height: 500px;width: 105%;background-color: rgb(51, 44, 44);display: flex;gap: 200px;}
+.footer1{height: 297px;width: 36.5%; display: flex; gap: 56px;position: relative; }
+.footer2{height: 297px;width: 36.5%; display: flex;gap: 50px;; position: relative;}
+.TEXT1{height: 230px;width: 44%; text-align: center; top: 45px; position: absolute;}
+.TEXT2{height: 230px;width: 44%; text-align: center;  top: 45px; position: absolute; left: 280px; color: rgb(214, 214, 45);}
+
+/* Media Queries pour le responsive design */
+@media screen and (max-width: 1400px) {
+    .DIV, .Services, .History, .carrousel, .carrousel2 {
+        width: 100%;
+    }
+    
+    .text {
+        right: 50%;
+        transform: translateX(50%);
+        width: 80%;
+    }
+    
+    .work1, .work2 {
+        width: 90%;
+        right: 0;
+        margin: 20px auto;
+        flex-wrap: wrap;
+    }
+    
+    .Picture {
+        width: 90%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .navbar ul div {
+        padding-left: 5%;
+    }
+    
+    .text h1 {
+        font-size: 60px;
+    }
+    
+    .History {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+    }
+    
+    .Image {
+        left: 0;
+        width: 100%;
+    }
+    
+    .Picture {
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    
+    footer {
+        flex-direction: column;
+        gap: 50px;
+        height: auto;
+        padding: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navbar ul div {
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+        background-color: rgba(0, 0, 0, 0.8);
+        padding: 15px;
+    }
+    
+    .text {
+        top: 150px;
+    }
+    
+    .text h1 {
+        font-size: 40px;
+    }
+    
+    .text button {
+        right: 50%;
+        transform: translateX(50%);
+    }
+    
+    .info1, .info2 {
+        width: 100%;
+        left: 0;
+    }
+    
+    .FIRST, .second {
+        flex-direction: column;
+    }
+    
+    .image1, .image2, .image3, .image4, .image5, .image6, .image7, .image8 {
+        width: 100%;
+    }
+    
+    .Picture {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer1, .footer2 {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .TEXT2 {
+        position: relative;
+        left: 0;
+        width: 100%;
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .text h1 {
+        font-size: 32px;
+    }
+    
+    .text p {
+        font-size: 16px;
+    }
+    
+    .card-text {
+        width: 100%;
+    }
+    
+    .last {
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+
